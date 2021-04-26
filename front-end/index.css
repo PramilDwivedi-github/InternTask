@@ -1,0 +1,160 @@
+body{
+	display: flex;
+	flex-wrap: wrap;
+	background: #E6E6E3;
+}
+
+header{
+	display:flex;
+	flex-wrap: wrap;
+	width: 100%;
+	align-items: center; 
+	background: white;
+}
+
+#logo{
+	margin-left: 50px;
+}
+p{
+	margin-left: 30px;
+	align-self: center;
+
+}
+
+#lg{
+	height:20px;
+	background: white;
+	
+	border-radius: 8px;
+	margin-left: 600px;
+}
+
+#sn{
+	height: 20px;
+	background: #05D0EB;
+	border-radius: 8px;
+	color:white;
+	margin-left: 20px;
+}
+button:hover{
+	cursor: pointer;
+}
+section{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	background: white;
+}
+#morethan{
+	margin-left: 100px;
+	margin-top: 60px;
+}
+#working-img{
+	width: 600px;
+	height: 600px;
+	margin-left: 300px;
+}
+#section2{
+	width: 100%;
+	height: max-content;
+}
+#userinput{
+	width:700px;
+	height:100px;
+	margin:auto;
+	margin-top: 20px;
+	background:  #301934;
+	background-image: url("C:\\Users\\DELL\\Downloads\\URL Shortning Service Assignment\\front-end\\images\\bg-shorten-desktop.svg");
+	background-size: cover;
+}
+
+#link-input{
+	/*align-self: center;*/
+	width: 500px;
+	height: 20px;
+	margin-top:40px; 
+	margin-left: 20px;
+	border-radius: 5px;
+}
+#shorten-button{
+	/*align-self: center;*/
+	width: 90px;
+	height: 20px;
+	border-radius: 5px;
+	background: #05D0EB;
+	color:white;
+}
+
+#listoflinks{
+	width: 100%;
+	height: max-content;
+	background: white;
+}
+
+
+
+#features{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+/*#features h1{
+	a
+}*/
+#before-foot{
+	display: block; 
+	width: 100%;
+	height: 150px;
+	background:#301934;
+	background-image: url("C:\\Users\\DELL\\Downloads\\URL Shortning Service Assignment\\front-end\\images\\bg-shorten-desktop.svg");
+}
+#before-foot h2{
+	margin-left: 500px;
+	color: white;
+}
+#get-started{
+	margin-left: 550px;
+	width: 100px;
+	border-radius: 5px;
+	background: #05D0EB;
+	color: white;
+}
+#cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; 
+	width:100%;
+}
+
+.desc{
+	margin: 5px;
+	width:300px;
+	height:max-content;
+	background: white;
+	border-radius:8px;
+}
+.cardLogo{
+	object-fit: cover;
+	width:50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #301934;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	width:100%;
+	height:200px;
+	background: #221C35;
+}
+footer h1{
+	color:white;
+}
+footer p{
+	color: white;
+}

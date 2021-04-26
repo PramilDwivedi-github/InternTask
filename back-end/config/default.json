@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://pramilvbn46:hellomotto@pramilpractice.imluq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "baseUrl":"http://localhost:3001"
+}
